@@ -10,10 +10,10 @@ public class HourContract {
     public HourContract() {
     }
 
-    public HourContract(Date date, Integer hours, Double valuePerHour) {
+    public HourContract(Date date, Double valuePerHour, Integer hours) {
         this.date = date;
-        this.hours = hours;
         this.valuePerHour = valuePerHour;
+        this.hours = hours;
     }
 
     public Date getDate() {
